@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:contentPadding="12dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/relavtive1"
+        android:layout_height="wrap_content"
+
+
+
+      >
+  <TextView
+      android:layout_width="wrap_content"
+      android:text="Appliance Name"
+      android:id="@+id/AnTv"
+      android:layout_height="wrap_content">
+
+  </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+              android:layout_marginLeft="10dp"
+
+            android:text="Rating In wts"
+            android:id="@+id/RIWtv"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+         android:layout_alignParentEnd="true"
+            android:text="Quantity"
+            android:id="@+id/qTv"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/relavtive2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relavtive1"
+
+        android:layout_height="wrap_content"
+
+
+>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="light"
+            android:id="@+id/AnV"
+            android:textColor="@color/colorblack"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="300"
+            android:textColor="@color/colorblack"
+            android:id="@+id/RIWV"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="3"
+            android:textColor="@color/colorblack"
+            android:id="@+id/qV"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+<View
+    android:layout_width="2dp"
+    android:layout_below="@+id/relavtive2"
+    android:id="@+id/view"
+
+    android:background="@color/colorAccent"
+    android:layout_height="2dp">
+
+</View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view"
+        android:id="@+id/relavtive3"
+
+        android:layout_height="wrap_content"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Bettry"
+            android:id="@+id/BTv"
+            android:textColor="@color/colorblack"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="Inverter"
+            android:textColor="@color/colorblack"
+            android:id="@+id/ITv"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="Plates"
+            android:textColor="@color/colorblack"
+            android:id="@+id/PTV"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relavtive3"
+
+        android:layout_height="wrap_content"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Osaka"
+            android:id="@+id/Bv"
+            android:textColor="@color/colorblack"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="DC Inverter"
+            android:textColor="@color/colorblack"
+            android:id="@+id/Iv"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="5 inch"
+            android:textColor="@color/colorblack"
+            android:id="@+id/PV"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
