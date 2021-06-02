@@ -2,6 +2,7 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
+    android:id="@+id/tvSpinerItem"
     android:textColor="@color/colorblack"
     android:maxLines="1"
     android:text="@string/app_name"

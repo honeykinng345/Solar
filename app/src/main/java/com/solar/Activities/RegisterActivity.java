@@ -4,12 +4,11 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.text.TextUtils;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import com.solar.Helper;
 import com.solar.Model.Api;

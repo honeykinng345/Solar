@@ -22,4 +22,7 @@ public interface Api {
 
     @POST("get_All_prices.php")
     Call<PricesBIP> get_All_prices();
+
+    @POST("fetchAllSolarProductLists.php")
+    Call<FetchAllSolarProductLists> fetchAllSolarProductLists();
 }

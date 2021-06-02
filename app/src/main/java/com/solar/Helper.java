@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 public class Helper {
@@ -39,17 +40,17 @@ public class Helper {
         Toast.makeText(context,message,Toast.LENGTH_LONG).show();
     }
 
-    public static String spinnerItemSelected(ArrayAdapter<String> arrayAdapter, int position) {
+    public static String spinnerItemSelected(int position, ArrayList<String> list) {
         // code here
 
         //spinner1.getSelectedItem().toString();
-       String    selectedSize=  arrayAdapter.getItem(position).toString();
-       /* String[] arr = selectedSize.split(" = ");
-        String s = arr[1];*/
-       Pattern pattern = Pattern.compile("[^0-9]");
-       String numberOnly = pattern.matcher(selectedSize).replaceAll("");
+       String    selectedSize=  list.get(position);
+       String[] arr = selectedSize.split(" = ");
+        String s = arr[1];
+    //   Pattern pattern = Pattern.compile("[^0-9]");
+       //String numberOnly = pattern.matcher(selectedSize).replaceAll("");
        // Toast.makeText(this, numberOnly, Toast.LENGTH_SHORT).show();
 
-        return numberOnly;
+        return s;
     }
 }

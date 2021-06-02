@@ -1,6 +1,5 @@
 package com.solar.Activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -53,7 +52,7 @@ public class DashBoardActivity extends AppCompatActivity {
                // startActivity(new Intent(DashBoardActivity.this));
                 break;
             case R.id.file_view:
-                Intent intent = new Intent();
+                Helper.transectionActivityToActivity(DashBoardActivity.this, SolarPartsShoopingActivity.class);
                 break;
             case R.id.point_view:
                 break;
